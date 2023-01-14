@@ -1,3 +1,7 @@
 function launch() {
-    const pageHook = document.getElementById("mainContent");
+    
+
+    header();
 }
+
+launch();
