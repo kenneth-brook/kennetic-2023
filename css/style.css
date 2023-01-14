@@ -17,11 +17,6 @@ body {
     color: white;
 }
 
-h1 {
-    text-align: center;
-    font-size: 5.8rem;
-}
-
 .navWrap {
     width: 100%;
     height: 125px;
@@ -38,4 +33,41 @@ h1 {
 .logo {
     height: 99%;
     margin-left: 15px;
+}
+
+.title {
+    text-align: center;
+    font-size: 6.2rem;
+    animation-duration: 6s;
+    animation-name: popin;
+}
+
+@keyframes popin {
+    0% {
+        font-size: 0.1rem;
+    }
+
+    75% {
+        font-size: 6.2rem;
+    }
+
+    80% {
+        font-size: 5.8rem;
+    }
+
+    85% {
+        font-size: 6.2rem;
+    }
+
+    90% {
+        font-size: 5.8rem;
+    }
+
+    95% {
+        font-size: 6.2rem;
+    }
+
+    100% {
+        font-size: 5.8rem;
+    }
 }

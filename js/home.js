@@ -4,4 +4,6 @@ function home() {
 
     pageHook.appendChild(title);
     title.innerText = "Kennetic Concepts";
+
+    title.classList.add("title");
 }
